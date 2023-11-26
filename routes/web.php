@@ -19,3 +19,6 @@ Route::get('/', function () {
 });
 
 Route::get('/home', [ProfileController::class,'index']);
+Route::get('/about', [ProfileController::class,'about']);
+Route::get('/projects', [ProfileController::class,'projects']);
+Route::get('/contact', [ProfileController::class,'contact']);
